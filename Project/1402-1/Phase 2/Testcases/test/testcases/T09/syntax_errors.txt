@@ -1,0 +1,7 @@
+#12 : syntax error, missing (
+#12 : syntax error, illegal {
+#13 : syntax error, illegal return
+#13 : syntax error, illegal NUM
+#13 : syntax error, missing )
+#14 : syntax error, missing else
+#14 : syntax error, missing Statement

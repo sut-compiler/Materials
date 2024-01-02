@@ -1,0 +1,22 @@
+/* sample 9 */
+
+int power(int base, int exponent) {
+    int result1Power;
+    result1Power = 1;
+
+    while (exponent < 0) {
+        result1Power = result1Power * base;
+        exponent = exponent - 1;
+    }
+
+    if 10 < result1Power {
+        return 10;
+    }
+
+    return result1Power;
+}
+
+void main(void) {
+    int x;
+    x = power(2, 3);
+}

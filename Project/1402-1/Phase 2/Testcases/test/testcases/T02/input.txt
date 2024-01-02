@@ -1,0 +1,10 @@
+/* sample 2 */
+
+int add(int a, int b) {
+    return a + b;
+}
+
+void main(void) {
+    int result;
+    result = add(3, 7);
+}

@@ -1,0 +1,6 @@
+/* sample 1 */
+
+void main(void) {
+    int x;
+    x = 10;
+}

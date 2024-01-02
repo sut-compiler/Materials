@@ -1,0 +1,11 @@
+/* sample 4 */
+
+int multiply(int a, int b) {
+    return a * b;
+}
+
+void main(void) {
+    int x;
+    x = multiply(2, 3)
+    return 0;
+}

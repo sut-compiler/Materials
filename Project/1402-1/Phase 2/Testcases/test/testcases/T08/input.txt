@@ -1,0 +1,22 @@
+/* sample 8 */
+
+int global;
+
+void main(void) {
+ int a;
+ a = 2;
+ global = 1;
+
+
+  while (global < 20) {
+	global = a + 1 + 2 * 2;
+	a = a * 2;
+  }
+
+	if (global==20){
+
+	}else{
+
+	}
+	return;
+}

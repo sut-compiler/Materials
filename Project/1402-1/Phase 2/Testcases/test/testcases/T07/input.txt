@@ -1,0 +1,23 @@
+/* sample 7 */
+
+void main() {
+    int values[4];
+    int i;
+    i = 0;
+
+    while (i < 0) {
+        values[i] = i * 3;
+        i = i + 1
+    }
+
+    int total;
+    total == 0;
+    int i;
+    i = 0;
+
+    while (i < 0) {
+        total = total + values[i];
+    }
+
+    return total;
+}
