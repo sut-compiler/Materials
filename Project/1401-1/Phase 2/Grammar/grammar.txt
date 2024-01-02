@@ -1,0 +1,46 @@
+1. program -> declaration_list
+2. declaration_list -> declaration_list declaration | declaration
+3. declaration -> var_declaration | fun_declaration
+4. var_declaration -> type_specifier ID ; | type_specifier ID [ NUM ] ;
+5. type_specifier -> int | void
+6. fun_declaration -> type_specifier ID ( params ) compound_stmt
+7. params -> param_list | void
+8. param_list -> param_list , param | param
+9. param -> type_specifier ID | type_specifier ID [ ]
+10. compound_stmt -> { local_declarations statement_list }
+11. local_declarations -> local_declarations var_declaration | Epsilon
+12. statement_list -> statement_list statement | Epsilon
+13. statement -> expression_stmt | compound_stmt | selection_stmt | iteration_stmt | return_stmt | switch_stmt
+14. expression_stmt -> expression ; | break ; | ;
+15. selection_stmt -> if ( expression ) statement endif | if ( expression ) statement else statement endif
+16. iteration_stmt -> while ( expression ) statement
+17. return_stmt -> return ; | return expression ;
+18. switch_stmt -> switch ( expression ) { case_stmts default_stmt }
+19. case_stmts -> case_stmts case_stmt | Epsilon
+20. case_stmt -> case NUM : statement_list
+21. default_stmt -> default : statement_list | Epsilon
+22. expression -> var = expression | simple_expression
+23. var -> ID | ID [ expression ]
+24. simple_expression -> additive_expression relop additive_expression | additive_expression
+25. relop -> < | == 
+26. additive_expression -> additive_expression addop term | term
+27. addop -> + | -
+28. term -> term mulop factor | factor
+29. mulop -> * | /
+30. factor -> ( expression ) | var | call | NUM
+31. call -> ID ( args )
+32. args -> arg_list | Epsilon
+33. arg_list -> arg_list , expression | expression
+
+
+Keywords: else if int return void while switch case default break endif
+
+Special symbols: + - * / < == = : ; , ( ) [ ] { } /* */ //
+
+ID = letter letter*
+NUM = digit digit*
+letter = a | .. | z | A | .. | Z
+digit = 0 | .. | 9
+
+Comments: /* ... */
+
