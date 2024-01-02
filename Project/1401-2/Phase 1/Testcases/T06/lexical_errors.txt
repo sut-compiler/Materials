@@ -1,0 +1,4 @@
+1.	(/#, Invalid input) (me., Invalid input) 
+4.	(*/, Unmatched comment) 
+6.	(/, Invalid input) 
+14.	(/*this ..., Unclosed comment) 

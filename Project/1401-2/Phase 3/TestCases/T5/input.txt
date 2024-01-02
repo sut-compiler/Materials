@@ -1,0 +1,17 @@
+/*==== sample S5  ====*/
+
+int main(void){
+
+    int arr[5];
+    int i;
+    arr[0]=21;
+    arr[1]=32;
+    arr[2]=44;
+    arr[3]=56;
+    arr[4]=89;
+    i=0;
+    repeat{
+      output(arr[i]);
+      i = i + 1;
+    }until(4 < i)
+}

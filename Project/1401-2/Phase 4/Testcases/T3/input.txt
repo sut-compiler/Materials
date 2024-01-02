@@ -1,0 +1,36 @@
+/*===  Sample 3  === */
+void printArray(int A[], int size)
+{
+    int i;
+    i = 0;
+    if (i < size) {
+    repeat {
+        output(A[i]);
+        i = i + 1;
+    } until (size < i + 1)
+    } 
+    else {}
+}
+
+void main(void)
+{
+    int arr[20];
+    int arrsize;
+    int i;
+    int j;
+    arrsize = 20;
+    i = 0;
+    repeat {
+	j = 0 - 2;
+	arr[i] = 2;
+        if (j < i) {
+	repeat { 
+		arr[i] = arr[i] * (0 - 2);
+		j = j + 1;
+	} until (i < j + 1)
+	} 
+    else {}
+	i = i + 1;
+    } until (arrsize < i + 1)
+    printArray(arr, arrsize);
+}

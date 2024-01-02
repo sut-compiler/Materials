@@ -1,0 +1,5 @@
+#6: Semantic Error! 'count' is not defined.
+#6: Semantic Error! 'count' is not defined.
+#28: Semantic Error! Type mismatch in operands, Got array instead of int.
+#30: Semantic Error! 'count' is not defined.
+#32: Semantic Error! 'count' is not defined.

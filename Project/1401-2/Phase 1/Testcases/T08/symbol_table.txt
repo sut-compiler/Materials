@@ -1,0 +1,15 @@
+1.	break
+2.	else
+3.	if
+4.	int
+5.	repeat
+6.	return
+7.	until
+8.	void
+9.	f
+10.	a
+11.	g
+12.	b
+13.	output
+14.	h
+15.	main

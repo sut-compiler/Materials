@@ -1,0 +1,55 @@
+/1 zero point
+
+int hell(int id){
+	re%peat {
+		if (1000 < scars)
+			break;
+		else
+			scars = 1scars + 1;
+	} until (1 < 0)
+	/* now we have scars */
+	return party(id);
+}
+
+int party(int id) {
+	repeat {
+		scars = scars - 1;
+		happiness = happiness + 1;
+	} until (scars == 0)
+	/* The lower you fall the higher you'll fly */
+	return party(id);
+}
+
+int ids[3000];
+int configs[3000];
+void main(void){
+	int equity;
+	int effort;
+	int scars;
+	int pr;
+	effort  = 0;
+	scars = 0;
+	pr = 5;
+	configs[1] = 0;
+	equity  = 10;
+	equity  = 10 + 3;
+	ids[1] = 3333;
+	ids[2] = 4444;
+	if (configs[1] /*comment*/ == 1){
+		repeat {
+			scars = scars + 1;
+			effort = effort + 10;
+			pr = pr + 50;
+		} until (10 < scars)
+		party(ids[10 - 4]);
+	}
+	else
+	{
+		repeat {
+			effort = effort + 1;
+			equity = equity + 10;
+		} until (1000 < equity)
+		hell(ids[1]);
+	}
+	return;
+}

@@ -1,0 +1,11 @@
+/*==== sample S1  ====*/
+
+void main(void){
+	int a;	
+	int c;
+	int b;
+	a = 5;
+	b = a + 1;
+    c = b + a;
+	output(c);
+}

@@ -1,0 +1,6 @@
+#15: Semantic Error! Illegal type of void for 'myflag'.
+#24: Semantic Error! 'flag' is not defined.
+#37: Semantic Error! No 'repeat ... until' found for 'break'.
+#51: Semantic Error! Type mismatch in operands, Got array instead of int.
+#55: Semantic Error! Mismatch in numbers of arguments of 'abs'.
+#72: Semantic Error! Mismatch in type of argument 1 of 'mergeSort'. Expected 'array' but got 'int' instead.

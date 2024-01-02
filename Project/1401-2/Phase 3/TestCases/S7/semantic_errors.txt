@@ -1,0 +1,10 @@
+#12: Semantic Error! 'g' is not defined.
+#16: Semantic Error! Type mismatch in operands, Got array instead of int.
+#22: Semantic Error! Illegal type of void for 'c'.
+#24: Semantic Error! Type mismatch in operands, Got array instead of int.
+#36: Semantic Error! 'k' is not defined.
+#39: Semantic Error! No 'repeat ... until' found for 'break'.
+#42: Semantic Error! No 'repeat ... until' found for 'break'.
+#46: Semantic Error! Mismatch in type of argument 1 of 'func'. Expected 'array' but got 'int' instead.
+#53: Semantic Error! Mismatch in type of argument 1 of 'foo'. Expected 'int' but got 'array' instead.
+#54: Semantic Error! Mismatch in numbers of arguments of 'foo'.

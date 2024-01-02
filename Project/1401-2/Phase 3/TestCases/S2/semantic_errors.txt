@@ -1,0 +1,6 @@
+#13: Semantic Error! Illegal type of void for 'variable1g'.
+#16: Semantic Error! Mismatch in type of argument 1 of 'sum1array'. Expected 'array' but got 'int' instead.
+#26: Semantic Error! Type mismatch in operands, Got array instead of int.
+#37: Semantic Error! No 'repeat ... until' found for 'break'.
+#39: Semantic Error! Mismatch in numbers of arguments of 'calculate'.
+#45: Semantic Error! 'variable1u' is not defined.

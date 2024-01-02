@@ -1,0 +1,5 @@
+#18: Semantic Error! No 'repeat ... until' found for 'break'.
+#38: Semantic Error! Mismatch in numbers of arguments of 'abs'.
+#46: Semantic Error! Type mismatch in operands, Got array instead of int.
+#53: Semantic Error! Illegal type of void for 'b'.
+#66: Semantic Error! 'max' is not defined.

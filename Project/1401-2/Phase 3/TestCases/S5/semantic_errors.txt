@@ -1,0 +1,9 @@
+#8: Semantic Error! Illegal type of void for 'e'.
+#11: Semantic Error! 'f' is not defined.
+#14: Semantic Error! Type mismatch in operands, Got array instead of int.
+#16: Semantic Error! 'g' is not defined.
+#17: Semantic Error! No 'repeat ... until' found for 'break'.
+#27: Semantic Error! 'c' is not defined.
+#39: Semantic Error! 'k' is not defined.
+#43: Semantic Error! Mismatch in type of argument 1 of 'foo'. Expected 'int' but got 'array' instead.
+#44: Semantic Error! Mismatch in numbers of arguments of 'foo2'.

@@ -1,0 +1,56 @@
+/*==== Sample S7 ====*/
+
+int global;
+
+
+int foo(int x){
+	int array[20];
+	int counter;
+	counter = 19;
+
+	repeat {
+		array[counter] = g * 2 - 1;
+		counter = counter - 1;
+		output(x);
+	} until (0 < counter)
+	return counter * array;
+}
+
+
+int func(int a[]){
+    int b;
+    void c;
+    output(global);
+	return b + a;
+}
+
+
+void main (void) {
+    int a;
+    int t[10];
+    int u[10];
+    a = 2;
+    global = 1;
+	repeat {
+		global = a + 1 + 2 * 2;
+		a = a * 2 * k;
+	} until (global<20)
+    
+    break;
+    
+	if (global==20){
+        break;
+	}else{
+    	t[0] =1;
+    	if (t[0] < 5) {
+    		u[1] = func(a);
+    	}
+    	else {
+    		u[2] = func(t);
+    	}
+	}
+	foo(a);
+	foo(t);
+	foo(a, t);
+	return;
+}

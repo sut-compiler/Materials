@@ -1,0 +1,25 @@
+/*=== Sample 4 == */
+void main(void) {
+    int i;
+    int j;
+    int sum;
+    int bound;
+    i = 1;
+    j = 3;
+    bound = 5;
+    output(bound);
+    sum = 0;
+    repeat {
+        j = j + 1;
+        if (j < bound) {
+        	sum = sum + 3;
+        } else {
+            sum = sum + 5;
+        }
+        output(sum);
+        i = i + 1;
+
+    } until (2 < i)
+    output(i);
+
+}

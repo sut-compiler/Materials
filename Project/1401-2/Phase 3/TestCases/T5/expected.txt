@@ -1,0 +1,5 @@
+PRINT    21
+PRINT    32
+PRINT    44
+PRINT    56
+PRINT    89

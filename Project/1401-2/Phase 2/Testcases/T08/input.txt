@@ -1,0 +1,16 @@
+/* sample 8 */
+
+int func(a){
+    if a<2 {
+        return 2
+    }else{
+        return
+    }
+}
+
+void main  ( void )
+{
+	int i;
+	i = func(2+4);
+	output(i;
+}

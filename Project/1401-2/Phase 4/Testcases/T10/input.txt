@@ -1,0 +1,32 @@
+/*==== Sample 10 =====*/
+int my_dummy_func (int my_var){
+	int my_var;
+	my_var = 1;
+    return my_var;
+	
+}
+
+int my_func(int my_var){
+	int a;
+	a = 30;
+	output(my_var);
+	if(a -30 < my_var+2){
+		return 1;
+	}
+	else {
+		return my_var + 3;
+	}
+}
+void main ( void )
+{
+	int m;
+    int n;
+	m = my_func (4) ;
+	output(m);
+	m = my_func (m);
+	output(m);
+	n = my_func (m);
+	output (m);
+	output(n);
+}
+

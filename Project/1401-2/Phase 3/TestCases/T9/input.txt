@@ -1,0 +1,27 @@
+/*===  Sample 5  === */
+void main(void)
+{
+    int arrsize;
+	int k;
+    int i;
+    int j;
+	int arr[20];
+	i = 0;
+	arrsize = 20;
+    repeat {
+	j = 0;
+	arr[i] = 2;
+		repeat {
+			arr[i] = arr[i] * (0-2);
+			j = j + 1;
+		} until (i < j + 1)
+
+	i = i + 1;
+    } until (arrsize < i + 1)
+
+    k = 0;
+	repeat {
+		output(arr[k]);
+		k = k + 1;
+		} until (arrsize < k + 1)
+}

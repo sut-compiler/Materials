@@ -1,0 +1,3 @@
+1.	(/, Invalid input) 
+4.	(re%, Invalid input) 
+8.	(1s, Invalid number) 

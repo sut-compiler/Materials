@@ -1,0 +1,16 @@
+/* sample 4 */
+
+int global[20];
+
+void main(void){
+	int array[20];
+	int counter;
+	counter = 19;
+
+	repeat {
+		array[counter] = global[counter] * 2 - 1;
+		counter = counter - 1;
+	} until (0 < counter)
+	return array;
+}
+

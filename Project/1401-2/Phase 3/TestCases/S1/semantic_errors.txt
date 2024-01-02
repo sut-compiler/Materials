@@ -1,0 +1,3 @@
+#7: Semantic Error! Illegal type of void for 'd'.
+#9: Semantic Error! 'e' is not defined.
+#12: Semantic Error! 'f' is not defined.

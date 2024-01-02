@@ -1,0 +1,17 @@
+int min(voi){
+	repeat {
+		x = 23apple;
+		mk3 = x + 1;
+		if (mk3 == 52) {
+			b =# 32;
+			return;
+		}
+		break;}
+	} until (arr[2milk])
+	#this = 2;
+	return;;!
+}
+// end of the code
+/* end of end of the code
+// hmmmmmm
+@#$#%%$*/

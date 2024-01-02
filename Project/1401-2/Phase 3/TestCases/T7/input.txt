@@ -1,0 +1,15 @@
+/*==== Sample 2 =====*/
+void main ( void )
+{
+	int i;
+	i = 4 ;
+	output(i);
+	if(10 < i){
+		output(0-1);
+	}
+	else {
+		output(0-2);
+	}
+	output (i*2);
+}
+

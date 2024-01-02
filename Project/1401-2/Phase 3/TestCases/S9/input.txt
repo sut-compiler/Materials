@@ -1,0 +1,68 @@
+/*==== Sample S9 ====*/
+
+int abs(int a) {
+    if (a < 0) {
+        return 0-a;
+    } else {
+        return a;
+    } 
+}
+
+int isMultiplier(int a, int b) {
+    int i;
+    int step;
+    int flag;
+    int c[10];
+    if (b == 0) {
+        return 0;
+    } else {break;
+        i = 1;
+        flag = 0;
+    } 
+
+    if (a < 0) {
+        if (b < 0) {
+            i = 1;
+        } else {
+            i = 0-1;
+        } 
+    } else {
+        if (b < 0) {
+            i = 0-1;
+        } else {
+            i = 1;
+        } 
+    } 
+
+    step = i;
+    i = i - abs(i,1);
+   repeat {
+        if (i * b == a) {
+            flag = 1;
+            break;
+        } else {
+            i = i + step;
+        } 
+    } until (abs(i) == abs(a) + c - 1)
+    return flag;
+
+}
+
+
+void main(void) {
+    void b; 
+    int a[10];
+    int i;
+    int j;
+    int sum;
+    i = 1;
+    j = 1;
+     repeat {
+        sum = 0;
+        j = 0;
+        break;        
+	output(sum);
+    i = i + 1;
+    } until(i == max - 1) 
+
+}

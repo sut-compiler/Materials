@@ -1,0 +1,39 @@
+/* === Test Case 8 === */
+int arr[3];
+int global;
+
+int foo(int arr[], int param) {
+	if (arr[1] == 0) {
+		return param + 100;
+	} else {
+		return global + 200;
+	} 
+}
+
+void changeglobal(int param) {
+	if (param < 5) {
+		global = 3;
+		return;
+	} else {
+		5;
+	} 
+	global = 6;
+}
+
+void main(void) {
+	int global;
+	int arr1[4];
+    int m;
+	
+	changeglobal(5);
+	global = 1;
+	arr1[1] = 1;
+	arr[1] = 0;
+    m = foo(arr1, 7);
+	output(m);  
+	
+	changeglobal(4);
+	
+	output(foo(arr1, 7));  
+	output(foo(arr, 7));  
+}

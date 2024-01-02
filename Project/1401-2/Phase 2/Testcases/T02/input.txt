@@ -1,0 +1,10 @@
+/* sample 2 */
+
+void main(void){
+    int a[100];
+    int b[100];
+    int c;
+
+    c = a[21] * 2 - 1;
+    b[12] = c + 2 - a[1];
+}

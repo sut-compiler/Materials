@@ -1,0 +1,95 @@
+/*==== Sample S8 ====*/
+
+int x[1];
+int abs(int a) {
+    if (a < 0) {
+        return 0-a;
+    } else {
+        return a;
+    } 
+}
+
+int integerDivision(int a, int b) {
+    int i;
+    int step;
+    void myflag;
+    int f1;
+    int f2;
+    int tmp;
+
+    if (b == 0) {
+        return 123456789;
+    } else {
+        i = 1;
+        flag = 0;
+    }
+
+    if (a < 0) {
+        if (b < 0) {
+            i = 1;
+            a = a * (0-1);
+            b = b * (0-1);
+        } else {
+            i = 0-1;
+            a = a * (0-1);
+            b = b * (0-1);
+        } 
+    } else { break;
+        if (b < 0) {
+            i = 0-1;
+        } else {
+            i = 1;
+        } 
+    } 
+    step = i;
+    i = i - abs(i);
+
+    repeat  {
+        if (i * b == a) {
+            return i;
+        } else {
+            f1 = x * b < a ;
+            tmp = i + step;
+            f2 = a < tmp * b;
+            if (f1 == f2) {
+                tmp = (b == abs(b,1));
+                return (i + tmp - 1);
+            } else {
+                i = i + step;
+            } 
+
+        } 
+    } until (abs(i) < abs(a) + 1)
+    return 123456789;
+}
+
+
+void mergeSort(int arr[], int l, int r)
+{
+    int m;
+    if (l < r){
+        m = l + integerDivision(r - l,2);
+        mergeSort(25, l, m);
+        mergeSort(arr, m + 1, r);
+    } else {}
+}
+
+
+void main(void)
+{
+    int arr[10];
+    int arrsize;
+    int i;
+    arrsize = 10;
+
+
+    i = 0;
+    repeat {
+        arr[9-i] = (i) * (i);
+        i = i + 1;
+    } until (i < arrsize)
+
+
+
+    mergeSort(arr, 0, arrsize - 1);
+}

@@ -1,0 +1,12 @@
+1.	break
+2.	else
+3.	if
+4.	int
+5.	repeat
+6.	return
+7.	until
+8.	void
+9.	main
+10.	prod
+11.	i
+12.	output

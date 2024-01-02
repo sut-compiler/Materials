@@ -1,0 +1,46 @@
+/*==== sample S2  ====*/
+
+int variable1b;
+int array1abc[3];
+int sum1array(int array[]) {
+    return (array[0] + array[1]);
+    array[1] = variable1b = 5;
+}
+
+int calculate(int x, int y) {
+    int result;
+    int array1xyz[2];
+    void variable1g;
+    array1xyz[0] = x;
+    array1xyz[1] = x + 1;
+    result = sum1array(3);
+    output(result);
+    variable1b = y + result;
+    repeat {
+        result = result + x;
+        x = x - 1;
+        if (x == 4)
+            break;
+        else {}
+    } until (0 < x)
+    return result + variable1b + array1xyz;
+}
+
+
+
+void main(void) {
+    int variable1a;
+    variable1a = (0 - 3) + 11;
+    variable1b = 5 * variable1a + calculate(variable1a, variable1a);
+    array1abc[1] = variable1b + (0 - 3);
+    if (variable1b == 108) {
+        break;
+        array1abc[0] = 0 - 7;
+        array1abc[2] = calculate(array1abc[0]) - 75;
+    }
+    else {
+        array1abc[2] = 3;
+    }
+    output(array1abc[2]);
+    variable1u = 5;
+}

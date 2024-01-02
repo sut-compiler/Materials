@@ -1,0 +1,28 @@
+int f(int n){
+return n * n * n;
+}
+
+void main(void){
+int a; int b; int c;
+int num; int cha; int t;
+int ans;
+a = 98;
+b = 2;
+c = 6;
+num = 1;
+cha = 1;
+t = 0;
+
+repeat {
+	t = t + 1;
+	num = num + cha;
+	if (t < 5) {
+		cha = cha * b;
+	} else {
+		cha += cha + c;
+	}
+} until (num < a)
+
+ans = f(t);
+break;
+}

@@ -1,0 +1,4 @@
+PRINT    10
+PRINT    20
+PRINT    1
+

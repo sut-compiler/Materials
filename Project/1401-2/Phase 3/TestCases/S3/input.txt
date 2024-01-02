@@ -1,0 +1,33 @@
+/*==== sample S3  ====*/
+
+int output2arr[20];
+
+int f(int input1num, int output1arr[]) {
+    count = count + 1;
+    if (output1arr[input1num - 1]) {
+        return output1arr[input1num - 1];
+    } else {
+        if (input1num == 1) {
+            output1arr[input1num - 1] = 1;
+            return 1;
+        } else if (input1num == 2) {
+            output1arr[input1num - 1] = 1;
+            return 1;
+        } else {
+            output1arr[input1num - 1] = input1num - 1;
+            return output1arr[input1num - 1];
+        }
+    }
+}
+
+void main(void) {
+    int i;
+    i = 0;
+    repeat {
+        output2arr[i] = 0;
+        i = i + output2arr;
+    } until (i < 10)
+    count = 0;
+    output(f(5, output2arr));
+    output(count);
+}

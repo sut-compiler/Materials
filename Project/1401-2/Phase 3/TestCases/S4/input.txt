@@ -1,0 +1,30 @@
+/*==== sample S4  ====*/
+
+int foo(int x){
+	int a;
+	void j;
+	a = 10;
+	output(x);
+	if(a < x){return(1);
+	}
+	else {return(2);
+	}
+}
+
+int foo2(int a, int b){
+    if(a == 1){
+        output(2);
+        g = 0;
+    } else {
+        output(3);
+        break;
+    }
+}
+
+void main ( void )
+{
+	int a[10];
+	a[3] = foo(2,3);	
+	a[1]= 2 + 3 * foo(a);
+	output (a[1]);
+}
