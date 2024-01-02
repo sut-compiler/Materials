@@ -1,0 +1,16 @@
+
+void main(void){
+	int testVar = 10;
+	int TestVar2 = 8;
+	int var;
+
+	if (testVar == 3){
+		var = 10
+	}
+	
+	else{
+		var = (TestVar2 - testVar) * 5;
+	}
+
+	return;
+}

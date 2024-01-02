@@ -1,0 +1,15 @@
+void min(voidd){
+		if (arr[2xefg] == 2abcd)
+			{b = b + 1;}
+		else if arr[2xefg] == 3:
+			{b = b + 2;
+			return;				}
+		else$ if (arr[2xefg] = 4)
+		{
+			#x = 5;
+			b = u * 123;
+			break;}
+		else
+			b = b - 1;
+	return 25;
+}

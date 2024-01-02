@@ -1,0 +1,58 @@
+{
+  "version": 2,
+  "solution_signature": "compiler.py",
+  "can_submit_single_file": true,
+  "python_version": 3.9,
+  "packages": [
+    {
+      "name": "test_1",
+      "score": 10,
+      "tests": ["test_1"]
+    },
+    {
+      "name": "test_2",
+      "score": 10,
+      "tests": ["test_2"]
+    },
+    {
+      "name": "test_3",
+      "score": 10,
+      "tests": ["test_3"]
+    },
+    {
+      "name": "test_4",
+      "score": 10,
+      "tests": ["test_4"]
+    },
+    {
+      "name": "test_5",
+      "score": 10,
+      "tests": ["test_5"]
+    },
+    {
+      "name": "test_6",
+      "score": 10,
+      "tests": ["test_6"]
+    },
+    {
+      "name": "test_7",
+      "score": 10,
+      "tests": ["test_7"]
+    },
+    {
+      "name": "test_8",
+      "score": 10,
+      "tests": ["test_8"]
+    },
+    {
+      "name": "test_9",
+      "score": 10,
+      "tests": ["test_9"]
+    },
+    {
+      "name": "test_10",
+      "score": 10,
+      "tests": ["test_10"]
+    }
+  ]
+}

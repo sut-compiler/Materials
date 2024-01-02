@@ -1,0 +1,16 @@
+1.	return
+2.	a
+3.	e
+4.	void
+5.	main
+6.	foo
+7.	while
+8.	st
+9.	b
+10.	int
+11.	else
+12.	break
+13.	if
+14.	arr
+15.	f
+16.	d

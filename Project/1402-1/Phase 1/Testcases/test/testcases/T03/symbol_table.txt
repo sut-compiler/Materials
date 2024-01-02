@@ -1,0 +1,11 @@
+1.	f
+2.	else
+3.	if
+4.	int
+5.	void
+6.	break
+7.	return
+8.	a
+9.	b
+10.	main
+11.	while

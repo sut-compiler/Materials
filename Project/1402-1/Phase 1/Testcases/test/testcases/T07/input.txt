@@ -1,0 +1,22 @@
+int f(int a) {
+    void g(int b) {
+        output(b);
+        ff(b - 1gh);
+    }
+    if (a == 1) {
+        out$put£(a);
+        return 0;
+    } else {
+        g(a);
+    }
+
+
+
+}
+
+
+void main(void) {
+int a = 9;
+    f(a);
+	f(aA$%);/*a$$a&&a##*/;;;;
+}
