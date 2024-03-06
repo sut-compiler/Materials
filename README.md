@@ -22,7 +22,7 @@ The repository is organized as follows:
   - **1401-1**
   - **1401-2**
   - **1402-1**
-- **Slide**
+- **Slides**
 - **Source**
 
 ## Contents
@@ -33,7 +33,7 @@ Each course folder contains:
 - **Homework**: Exercises and theoretical questions.
 - **Project**: Detailed project requirements, divided by phases and including test cases.
 - **Quiz**: Quiz materials for each semester.
-- **Slide**: Lecture slides for course content.
+- **Slides**: Lecture slides for course content.
 - **Source**: Additional source materials used throughout the course.
 
 ## Usage
