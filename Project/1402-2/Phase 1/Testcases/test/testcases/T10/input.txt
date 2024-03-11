@@ -1,0 +1,17 @@
+vod min(voi$$){
+	if (arr[efg] == TT%^&*){
+			b = b + 1;}
+		return;
+		if(arr[efg] === 3)
+			b = b + 2;
+			return;
+		else (arr[ef%g] // arr)
+		{
+			x = 5;
+			b = u * 123 + x;
+			break;}
+		else
+			b = b - 1;
+	}
+	return;
+}129

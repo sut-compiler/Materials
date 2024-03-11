@@ -1,0 +1,12 @@
+
+void main(void){
+	int a;
+	int bb;
+	int cccc;
+
+	a = 2
+	bb = 3
+	cccc = a + bb;
+	bb = cccc + cccc;
+	return;	
+}
