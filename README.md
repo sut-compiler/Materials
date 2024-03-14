@@ -16,6 +16,7 @@ The repository is organized as follows:
   - **1401-2**
   - **1402-1**
   - **1402-2**
+- **Notes**
 - **Project**
   - **1401-1**
   - **1401-2**
