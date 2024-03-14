@@ -36,6 +36,7 @@ Each course folder contains:
 - **Homework**: Exercises and theoretical questions.
 - **Project**: Detailed project requirements, divided by phases and including test cases.
 - **Quiz**: Quiz materials for each semester.
+- **Notes**: Additional course notes used throughout the course.
 - **Slides**: Lecture slides for course content.
 - **Source**: Additional source materials used throughout the course.
 
