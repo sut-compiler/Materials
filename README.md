@@ -11,7 +11,7 @@ The repository is organized as follows:
   - **1401-2**
   - **1402-1**
   - **1402-2**
-- **Homework**
+- **Assignments**
   - **1401-1**
   - **1401-2**
   - **1402-1**
@@ -34,7 +34,7 @@ The repository is organized as follows:
 Each course folder contains:
 
 - **Exam**: Past exam papers.
-- **Homework**: Exercises and theoretical questions.
+- **Assignments**: Exercises and theoretical questions.
 - **Project**: Detailed project requirements, divided by phases and including test cases.
 - **Quiz**: Quiz materials for each semester.
 - **Notes**: Additional course notes used throughout the course.
