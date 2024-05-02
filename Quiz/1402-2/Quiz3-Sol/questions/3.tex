@@ -1,0 +1,29 @@
+\begin{center}
+\begin{tabular}{c|c|c}
+Action & Input & Stack \\
+\hline
+$AC$ & $a b a d f \$$ & $S$ \\
+\hline
+$aBCda$ & $a b a d f \$$ & $AC\$$ \\
+\hline
+terminal & $a b a d f \$$ & $aBCda\$$ \\
+\hline
+$bB$ & $b a d f \$$ & $BCda\$$ \\
+\hline
+terminal & $b a d f \$$ & $bBCda\$$ \\
+\hline
+a skip error, & $a d f \$$ & $BCda\$$ \\
+\hline
+$\varepsilon$ & $d f \$$ & $Cda\$$ \\
+\hline
+terminal & $d f \$$ & $da\$$ \\
+\hline
+a expected error, & $f \$$ & $a\$$ \\
+\hline
+$f$ & $f \$$ & $C\$$ \\
+\hline
+terminal & $f\$$ & $f\$$ \\
+\hline
+ACCEPT & $\$$ & $\$$ \\
+\end{tabular}
+\end{center}
